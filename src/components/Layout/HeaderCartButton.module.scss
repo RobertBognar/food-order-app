@@ -1,0 +1,64 @@
+@import './../../variables';
+
+.button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: $headerBackground;
+    color: $basicWhite;
+    padding: $common12 $common48;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: $common25;
+    font-weight: $weight700;
+    &:hover {
+        background-color: $buttonHover;
+    }
+    &:active {
+        background-color: $buttonHover;
+        transform: scale(0.97);
+    }
+}
+
+.icon {
+    width: $common22;
+    height: $common22;
+    margin-right: $common8;
+}
+
+.badge {
+    background-color: $badgeColor;
+    padding: $common4 $common16;
+    border-radius: $common25;
+    margin-left: $common16;
+    font-weight: $weight700;
+    &:hover {
+        background-color: $badgeHover;
+    }
+    &:active {
+        background-color: $badgeHover;
+    }
+}
+
+.bump {
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(0.9);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

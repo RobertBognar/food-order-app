@@ -1,0 +1,102 @@
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #ccaa9d;
+  color: white;
+  padding: 12px 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #d89f85;
+}
+
+.button:active {
+  background-color: #d89f85;
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+}
+
+.badge {
+  background-color: #b46e52;
+  padding: 4px 16px;
+  border-radius: 25px;
+  margin-left: 16px;
+  font-weight: 700;
+}
+
+.badge:hover {
+  background-color: #a05537;
+}
+
+.badge:active {
+  background-color: #a05537;
+}
+
+.bump {
+  -webkit-animation: bump 300ms ease-out;
+          animation: bump 300ms ease-out;
+}
+
+@-webkit-keyframes bump {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  30% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes bump {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  30% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=HeaderCartButton.module.css.map */
