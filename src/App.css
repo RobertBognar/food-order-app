@@ -1,0 +1,9 @@
+body {
+    background-color: rebeccapurple;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
