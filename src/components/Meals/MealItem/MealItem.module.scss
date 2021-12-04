@@ -1,0 +1,23 @@
+@import './../../../variables';
+
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: $common16;
+    padding-bottom: $common16;
+    border-bottom: $common1 solid $borderBottom;
+    & h3 {
+        margin: 0 0 $common4 0;
+    }
+}
+
+.description {
+    font-style: italic;
+}
+
+.price {
+    margin-top: $common4;
+    font-weight: bold;
+    color: $price;
+    font-size: $common20;
+}

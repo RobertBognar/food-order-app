@@ -1,0 +1,25 @@
+@import './../../variables';
+
+.meals {
+    max-width: 960px;
+    width: 90%;
+    margin: $common32 auto;
+    animation: meals-appear 1s ease-out forwards;
+    & ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@keyframes meals-appear {
+    from {
+        opacity: 0;
+        transform: translateY($common48);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

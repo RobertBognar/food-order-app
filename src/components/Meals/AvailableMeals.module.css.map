@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAC;EACH,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,GAAG;EACV,MAAM,ECeC,IAAI,CDfO,IAAI;EACtB,SAAS,EAAE,iCAAiC;CAM/C;;AAVD,AAKI,MALE,CAKA,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAGL,UAAU,CAAV,YAAU;EACN,IAAI;IACA,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,gBAAqB;;EAGpC,EAAE;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,aAAa",
+    "sources": [
+        "AvailableMeals.module.scss",
+        "../../_variables.scss"
+    ],
+    "names": [],
+    "file": "AvailableMeals.module.css"
+}

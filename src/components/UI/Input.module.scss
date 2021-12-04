@@ -1,0 +1,18 @@
+@import './../../variables';
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: $common8;
+    & label {
+        font-weight: bold;
+        margin-right: $common16;
+    }
+    & input {
+        width: $common48;
+        border-radius: $common5;
+        border: $common1 solid $borderBottom;
+        font: inherit;
+        padding-left: $common8;
+    }
+}

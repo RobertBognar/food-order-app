@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACF,OAAO,ECWA,IAAI;EDVX,UAAU,EAAE,CAAC,CCGP,GAAG,CAGH,GAAG,CAiBK,mBAAmB;EDtBjC,aAAa,ECQN,IAAI;EDPX,gBAAgB,EC8BH,OAAO;CD7BvB",
+    "sources": [
+        "Card.module.scss",
+        "../../_variables.scss"
+    ],
+    "names": [],
+    "file": "Card.module.css"
+}

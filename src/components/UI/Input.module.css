@@ -1,0 +1,23 @@
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8px;
+}
+
+.input label {
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.input input {
+  width: 48px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 8px;
+}
+/*# sourceMappingURL=Input.module.css.map */

@@ -1,0 +1,24 @@
+@import './../../../variables';
+
+.form {
+    text-align: right;
+}
+
+.form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: $badgeColor;
+    border: $common1 solid $badgeColor;
+    color: $basicWhite;
+    padding: $common4 $common32;
+    border-radius: $common20;
+    font-weight: bold;
+    &:hover {
+        background-color: $badgeHover;
+        border-color: $badgeHover;
+    }
+    &:active {
+        background-color: $badgeHover;
+        border-color: $badgeHover;
+    }
+}

@@ -1,0 +1,48 @@
+@import './../../variables';
+
+.cart-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 320px;
+    overflow: auto;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: $common24;
+    margin: $common16 0;
+}
+
+.actions {
+    text-align: right;
+    & button {
+        font: inherit;
+        cursor: pointer;
+        background-color: transparent;
+        border: $common1 solid $badgeColor;
+        padding: $common8 $common32;
+        border-radius: $common25;
+        margin-left: $common16;
+        &:hover {
+            background-color: $badgeHover;
+            border-color: $badgeHover;
+            color: white;
+        }
+        &:active {
+            background-color: $badgeHover;
+            border-color: $badgeHover;
+            color: $basicWhite;
+        }
+    }
+    .button--alt {
+        color: $badgeColor;
+    }
+    .button {
+        background-color: $badgeColor;
+        color: white;
+    }
+}

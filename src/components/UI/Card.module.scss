@@ -1,0 +1,8 @@
+@import './../../variables';
+
+.card {
+    padding: $common16;
+    box-shadow: 0 $common2 $common8 $headerBoxShadow;
+    border-radius: $common14;
+    background-color: $cardBackground;
+}

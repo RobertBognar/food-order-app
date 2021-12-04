@@ -4,13 +4,21 @@ $weight400: 400;
 $weight700: 700;
 
 $common0: 0px;
+$common1: 1px;
 $common2: 2px;
 $common4: 4px;
+$common5: 5px;
 $common8: 8px;
+$common10: 10px;
 $common12: 12px;
+$common14: 14px;
 $common16: 16px;
+$common18: 18px;
+$common20: 20px;
 $common22: 22px;
+$common24: 24px;
 $common25: 25px;
+$common32: 32px;
 $common48: 48px;
 
 //COLORS
@@ -18,6 +26,13 @@ $backgroundMain: rgb(250, 241, 241);
 $basicWhite: rgb(255, 255, 255);
 $headerBackground: #ccaa9d;
 $headerBoxShadow: rgba(0, 0, 0, 0.25);
+$headerOverlay: rgba(0, 0, 0, 0.25);
+$backdropOverlay: rgba(0, 0, 0, 0.75);
+$headerOverlayBackground: #e0c3b8;
+$headerOverlayH2P: rgb(12, 12, 12);
 $buttonHover: #d89f85;
 $badgeColor: #b46e52;
 $badgeHover: #a05537;
+$borderBottom: #ccc;
+$cardBackground: #fff7f4;
+$price: #535353;
