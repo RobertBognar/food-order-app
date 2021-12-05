@@ -1,0 +1,64 @@
+@import './../../variables';
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: $common1 solid $buttonHover;
+    padding: $common16 0;
+    margin: $common16 0;
+    & h2 {
+        margin: 0 0 $common16 0;
+        color: $price;
+    }
+    & button {
+        font: inherit;
+        font-weight: bold;
+        font-size: $common20;
+        color: $badgeColor;
+        border: $common1 solid $badgeColor;
+        width: $common48;
+        text-align: center;
+        border-radius: $common6;
+        background-color: transparent;
+        cursor: pointer;
+        margin-left: $common16;
+        margin: $common4;
+        &:hover {
+            background-color: $badgeHover;
+            color: $basicWhite;
+        }
+        &:active {
+            background-color: $badgeHover;
+            color: $basicWhite;
+        }
+    }
+    & .summary {
+        width: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & .price {
+            font-weight: bold;
+            color: $badgeHover;
+        }
+        & .amount {
+            font-weight: bold;
+            border: $common1 solid $borderBottom;
+            padding: $common4 $common12;
+            border-radius: $common6;
+            color: $price;
+        }
+    }
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .actions {
+        flex-direction: row;
+    }
+}

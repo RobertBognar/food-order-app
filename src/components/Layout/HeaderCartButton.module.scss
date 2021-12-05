@@ -21,6 +21,12 @@
     }
 }
 
+@media (min-width: 375px) {
+    .button {
+        margin-left: $common20;
+    }
+}
+
 .icon {
     width: $common22;
     height: $common22;

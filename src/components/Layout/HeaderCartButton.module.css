@@ -27,6 +27,12 @@
           transform: scale(0.97);
 }
 
+@media (min-width: 375px) {
+  .button {
+    margin-left: 20px;
+  }
+}
+
 .icon {
   width: 22px;
   height: 22px;

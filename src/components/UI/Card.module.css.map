@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,KAAK,CAAC;EACF,OAAO,ECWA,IAAI;EDVX,UAAU,EAAE,CAAC,CCGP,GAAG,CAGH,GAAG,CAiBK,mBAAmB;EDtBjC,aAAa,ECQN,IAAI;EDPX,gBAAgB,EC8BH,OAAO;CD7BvB",
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACF,OAAO,ECYA,IAAI;EDXX,UAAU,EAAE,CAAC,CCGP,GAAG,CAIH,GAAG,CAiBK,mBAAmB;EDvBjC,aAAa,ECSN,IAAI;EDRX,gBAAgB,EC+BH,OAAO;CD9BvB",
     "sources": [
         "Card.module.scss",
         "../../_variables.scss"
