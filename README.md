@@ -1,2 +1,2 @@
 # food-order-app
-ReactJS, Hooks, Reducer, Sass Demo Application
+ReactJS, Hooks, State, Context, Reducer, Firebase Sass Demo Application
