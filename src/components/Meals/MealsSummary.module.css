@@ -5,7 +5,7 @@
   margin: auto;
   margin-top: -128px;
   position: relative;
-  background-color: transparent;
+  background-color: #faf1f1;
   color: white;
   border-radius: 14px;
   padding: 16px;
@@ -23,5 +23,11 @@
   color: #0c0c0c;
   font-style: italic;
   font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .summary {
+    background-color: transparent;
+  }
 }
 /*# sourceMappingURL=MealsSummary.module.css.map */

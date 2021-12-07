@@ -7,7 +7,7 @@
     margin: auto;
     margin-top: -128px;
     position: relative;
-    background-color: transparent;
+    background-color: $backgroundMain;
     color: $basicWhite;
     border-radius: $common14;
     padding: $common16;
@@ -21,5 +21,11 @@
         color: $headerOverlayH2P;
         font-style: italic;
         font-size: $common14;
+    }
+}
+
+@media (max-width: 600px) {
+    .summary {
+        background-color: transparent;
     }
 }

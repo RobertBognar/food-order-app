@@ -12,6 +12,20 @@
     }
 }
 
+.MealsLoading {
+    margin-top: $common20;
+    text-align: center;
+    color: black;
+    letter-spacing: $common2;
+}
+
+.MealsError {
+    margin-top: $common20;
+    text-align: center;
+    color: crimson;
+    letter-spacing: $common2;
+}
+
 @keyframes meals-appear {
     from {
         opacity: 0;
