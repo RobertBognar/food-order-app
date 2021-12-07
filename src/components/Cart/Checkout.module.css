@@ -1,0 +1,80 @@
+.form {
+  margin: 16px 0;
+  height: 300px;
+  overflow: scroll;
+}
+
+.control {
+  margin-bottom: 8px;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.control input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 320px;
+  max-width: 100%;
+}
+
+.actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 16px;
+}
+
+.actions button {
+  font: inherit;
+  color: #b46e52;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 32px;
+}
+
+.actions button:hover {
+  background-color: #d89f85;
+}
+
+.actions button:active {
+  background-color: #d89f85;
+}
+
+.actions .submit {
+  border: 1px solid #b46e52;
+  background-color: #b46e52;
+  color: white;
+}
+
+.actions .submit:hover {
+  background-color: #a05537;
+}
+
+.actions .submit:active {
+  background-color: #a05537;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+
+.pop-message {
+  font-size: 12px;
+  font-style: italic;
+}
+/*# sourceMappingURL=Checkout.module.css.map */

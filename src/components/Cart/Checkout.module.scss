@@ -1,0 +1,70 @@
+@import './../../variables';
+
+.form {
+    margin: $common16 0;
+    height: 300px;
+    overflow: scroll;
+}
+
+.control {
+    margin-bottom: $common8;
+    & label {
+        font-weight: bold;
+        margin-bottom: $common4;
+        display: block;
+    }
+    & input {
+        font: inherit;
+        border: $common1 solid $borderBottom;
+        border-radius: $common4;
+        width: 320px;
+        max-width: 100%;
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: $common16;
+    & button {
+        font: inherit;
+        color: $badgeColor;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        border-radius: $common25;
+        padding: $common8 $common32;
+        &:hover {
+            background-color: $buttonHover;
+        }
+        &:active {
+            background-color: $buttonHover;
+        }
+    }
+    & .submit {
+        border: $common1 solid $badgeColor;
+        background-color: $badgeColor;
+        color: $basicWhite;
+        &:hover {
+            background-color: $badgeHover;
+        }
+        &:active {
+            background-color: $badgeHover;
+        }
+    }
+}
+
+.invalid {
+    & label {
+        color: $invalidLabel;
+    }
+    & input {
+        border-color: $invalidBorder;
+        background-color: $invalidBackground;
+    }
+}
+
+.pop-message {
+    font-size: $common12;
+    font-style: italic;
+}
