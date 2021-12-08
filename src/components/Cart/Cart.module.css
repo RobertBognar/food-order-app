@@ -55,4 +55,12 @@
   background-color: #b46e52;
   color: white;
 }
+
+.order {
+  font-style: italic;
+}
+
+.orderMessage {
+  background: transparent;
+}
 /*# sourceMappingURL=Cart.module.css.map */

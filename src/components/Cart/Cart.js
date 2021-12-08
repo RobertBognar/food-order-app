@@ -39,9 +39,9 @@ const Cart = (props) => {
                 }),
             },
         );
+
         setIsSubmitting(false);
         setDidSubmit(true);
-        cartCtx.clearCart();
     };
 
     const cartItems = (
@@ -93,7 +93,9 @@ const Cart = (props) => {
 
     const didSubmitModalContent = (
         <React.Fragment>
-            <p>Successfully sent the order! Your order is preparing :)</p>
+            <p className={classes.order}>
+                Successfully sent the order! Your order is preparing :)
+            </p>
             <div className={classes.actions}>
                 <button
                     className={classes['button--alt']}
